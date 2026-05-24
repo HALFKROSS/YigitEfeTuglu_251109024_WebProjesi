@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kayıt Ol</title>
+    <link rel="stylesheet" href="style.css?v=999">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Emblema+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <div id="y-kayit-panel-ana">
+        <img src="images/logo-ust.png" alt="logo" id="y-kayit-logo-ust">
+        <div id="y-kayit-ust-baglantilar-alan">
+            <div><i class="fa-solid fa-house"></i><a href="anasayfa.php">AnaSayfa</a></div>
+            <div><i class="fa-solid fa-user"></i><a href="giris.html">Giriş Yap</a></div>
+        </div>
+    </div>
+
+    <div id="y-kayit-orta-baslik-grup">
+         <h1>YENİ HESAP OLUŞTUR</h1>
+    </div>
+
+    <div class="y-kayit-formu-arkaplan-yeri">
+        <form action="kayit_kontrol.php" method="POST">
+            <i class="fa-solid fa-user"></i> Adınız Soyadınız<br>
+            <input type="text" name="y_ad_soyad" required>
+            <hr>
+            <i class="fa-solid fa-envelope"></i> E-posta Adresiniz<br>
+            <input type="text" name="y_posta" required>
+            <hr>
+            <i class="fa-solid fa-key"></i> Şifreniz<br>
+            <input type="password" name="y_sifre" required>
+            <hr>
+            <button type="submit">Kayıt Ol</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sisteme Giriş</title>
+    <link rel="stylesheet" href="style.css?v=999">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Emblema+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <div id="y-giris-panel-ust">
+        <img src="images/logo-ust.png" alt="logo" id="y-giris-logo-gorsel">
+        <div id="y-giris-linkler-ust">
+            <div><i class="fa-solid fa-house"></i><a href="anasayfa.php">AnaSayfa</a></div>
+            <div><i class="fa-solid fa-user-plus"></i><a href="kayit.html">Kayıt Ol</a></div>
+        </div>
+    </div>
+
+    <div id="y-giris-ust-baslik-alan">
+         <h1>YÖNETİCİ GİRİŞİ</h1>
+    </div>
+
+    <div class="y-giris-form-kutusu-bolum">
+        <form action="giris_kontrol.php" method="POST">
+            <i class="fa-solid fa-envelope"></i> E-posta Adresiniz<br>
+            <input type="text" name="y_posta" placeholder="E-posta" required>
+            <hr>
+            <i class="fa-solid fa-key"></i> Şifreniz<br>
+            <input type="password" name="y_sifre" placeholder="Şifreniz" required>
+            <hr>
+            <button type="submit">Giriş Yap</button>
+        </form>
+    </div>
+</body>
+</html>

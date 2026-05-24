@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="style.css?v=999">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Emblema+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+    <div id="y-zincirler-ustmenu"><img src="images/zincirtabela.png" alt="">
+        <div>
+            <img src="images/karsilasma-foto.png" alt="">
+            <h1>Doğanın Derinlikleri Keşif Edilmeyi Bekliyor</h1>
+        </div>
+        <img src="images/zincirtabela.png" alt="">
+    </div>
+    <div id="y-ust-panel">
+        <img src="images/logo-ust.png" alt="logo" id="y-logo-menu">
+        <div id="y-ust-baglantilar">
+            <div><i class="fa-solid fa-house"></i><a href="anasayfa.html">AnaSayfa</a></div>
+            <div><i class="fa-solid fa-tree"></i><a href="geziler.php">Geziler</a></div>
+            <div><i class="fa-solid fa-square-envelope"></i><a href="iletisim.html">İletişim</a></div>
+            <div><i class="fa-solid fa-user"></i><a href="giris.html">Giriş</a></div>
+        </div>
+    </div>
+    <div class="y-agaclar">
+        <img src="images/agaclar.png" alt=""><img src="images/agaclar.png" alt="">
+    </div>
+    <div class="y-baslik">
+        <h1>BİZİMLE İLETİŞİME GEÇİN (ŞİKAYET VE ÖNERİ)</h1>
+    </div>
+    <div class="y-iletisim-formu-alani">
+        <form action="iletisim_kontrol.php" method="POST">
+            <i class="fa-solid fa-user"></i> Adınız Soyadınız <br>
+            <input type="text" name="y_ad_soyad" placeholder="Ad soyad giriniz" required>
+            <hr>
+            <i class="fa-solid fa-envelope"></i> E-posta Adresiniz <br>
+            <input type="email" name="y_posta" placeholder="E-posta adresiniz" required>
+            <hr>
+            <i class="fa-solid fa-comment-dots"></i> Mesajınız / Şikayetiniz <br>
+            <textarea name="y_mesaj" rows="5" placeholder="Buraya yazabilirsiniz..." required></textarea>
+            <hr>
+            <button type="submit">Mesajı Gönder</button>
+        </form>
+    </div>
+    <div class="y-assagi-menu-tamami">
+        <div id="y-assa-sayfa-linkler">
+            <h2>Sosyal Medyalarımız</h2>
+            <a href=""><i class="fa-brands fa-youtube"></i></a><a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-x-twitter"></i></a><a href=""><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <div id="y-assa-sayfa-telefon">
+            <h2>Telefon Numaramız</h2>
+            <div id="y-telefon-icerikler"><i class="fa-solid fa-phone"></i>
+                <h3>+90 0000 0000</h3>
+            </div>
+        </div>
+        <div id="y-assa-sayfa-site-sayfalari">
+            <h2>Site Sayfalarımız</h2>
+            <div id="y-assa-sayfa-site-sayfalari-icerik">
+                <a href="anasayfa.html"><i class="fa-solid fa-house"></i></a><a href="iletisim.html"><i
+                        class="fa-solid fa-square-envelope"></i></a>
+            </div>
+        </div>
+        <div id="y-assa-sayfa-telif-hakki">
+            <p>© 2024 Bu site, okul projesi kapsamında tamamen öğrenmek ve kendimi geliştirmek amacıyla hazırlanmıştır.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
