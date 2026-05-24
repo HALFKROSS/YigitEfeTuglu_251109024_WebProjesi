@@ -27,4 +27,4 @@ Sistemi test etmek isterseniz şu admin bilgilerini kullanabilirsiniz:
 
 E-posta: admin@gmail.com
 Şifre: 123
-Hazırlayan: Yiğit Efe Tuğlu
+Yapımcı: Yiğit Efe Tuğlu
